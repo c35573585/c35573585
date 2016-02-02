@@ -16,6 +16,7 @@ h2 {
 
 #navbar {
 	/*Add your CSS here!*/
+	margin:0px;
 	float:right;
 	position:fixed;
 }
