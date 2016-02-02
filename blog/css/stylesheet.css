@@ -23,16 +23,16 @@ img {
 	left:50%;
 	position:fixed;
 	margin:auto;
-	right:100%;
+	right:-30px;
 	
 }
 
 #header {
 	position: relative;
 	background-color: #00CCFF;
-	top:100%;
-	margin-left:-10px;
-	margin-right:-10px;
+	top:0px;
+	left:0px;
+	right:0px;
 }
 
 ul{
