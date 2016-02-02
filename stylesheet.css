@@ -14,13 +14,6 @@ h2 {
 	color: #FFFFFF;
 }
 
-img {
-	height: 170px;
-	width: 170px;
-	box-shadow: rgba(0,0,0,0.2) 10px 10px;
-
-}
-
 #navbar {
 	/*Add your CSS here!*/
 	margin-right:0px;
@@ -35,4 +28,19 @@ img {
 	padding:0;
         height:100px;
         position: fixed;
+}
+ul{
+	list-style-type: none;
+	position: fixed;
+	float:right;
+}
+
+li {
+	/*Add your CSS here!*/
+	display:block;
+	padding:5px 5px 5px 5px;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	background-color: #50CEFF;
+
 }
