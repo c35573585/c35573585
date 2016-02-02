@@ -30,7 +30,7 @@ img {
 #header {
 	position: relative;
 	background-color: #00CCFF;
-	margin-top:-50px;
+	top:10px;
 	margin-left:-10px;
 	margin-right:-10px;
 }
