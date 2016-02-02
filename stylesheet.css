@@ -16,10 +16,9 @@ h2 {
 
 #navbar {
 	/*Add your CSS here!*/
+	float:right;
 	margin-right:0px;
 	position:fixed;
-	/*float:right;*/
-	
 }
 
 #header {
@@ -27,7 +26,7 @@ h2 {
 	margin-top:-20px;
 	padding:0;
         height:100px;
-        position: fixed;
+        position: relative;
 }
 ul{
 	list-style-type: none;
