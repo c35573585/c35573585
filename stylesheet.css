@@ -24,6 +24,7 @@ h2 {
 #header {
 	background-color: #00CCFF;
 	margin-top:-20px;
+	overflow-x:auto;
 	padding:0;
         height:100px;
         position: fixed;
@@ -44,7 +45,8 @@ li {
 
 }
 #left{
-	margin:auto;
+	margin-top:120px;
+	margin-left:10px;
 	float:left;
-	width:80%;
+	width:70%;
 }
