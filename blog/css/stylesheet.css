@@ -22,16 +22,16 @@ img {
 	/*Add your CSS here!*/
 	left:50%;
 	position:fixed;
-	right:-30px;
+	float:right;
 	
 }
 
 #header {
 	position: relative;
 	background-color: #00CCFF;
-	top:-10px;
+	top:-20px;
 	left:-10px;
-	right:-10px;
+	right:-50px;
 }
 
 ul{
