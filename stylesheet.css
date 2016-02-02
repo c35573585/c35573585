@@ -27,7 +27,7 @@ h2 {
 	overflow-x:auto;
 	padding:0;
         height:100px;
-        position: fixed;
+        position: relative;
 }
 ul{
 	list-style-type: none;
