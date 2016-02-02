@@ -6,8 +6,8 @@ body{
 	height:40px;
 	width:auto;
 	position:fixed;
-	margin-top:-10px;
-	margin-left:-10px;
+	margin-top:10px;
+	margin-left:10px;
 }
 /*#right{
 	height:100px;
