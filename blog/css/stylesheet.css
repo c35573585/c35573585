@@ -1,6 +1,9 @@
-#top{
+body{
+	background-color:#FF05FF;
+}
+div{
 	background-color:#00CCFF;
-	position:fixed;
-	padding-bottom: 25px;
-	width:100%;
+	height:40px;
+	width:100px;
+	padding:40px;
 }
