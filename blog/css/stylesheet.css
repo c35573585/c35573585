@@ -22,14 +22,15 @@ img {
 	/*Add your CSS here!*/
 	left:50%;
 	position:fixed;
-	float:right;
 	margin:auto;
+	right:50px;
+	
 }
 
 #header {
 	position: relative;
 	background-color: #00CCFF;
-	margin-top:-20px;
+	margin-top:-50px;
 	margin-left:-10px;
 	margin-right:-10px;
 }
