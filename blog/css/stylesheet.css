@@ -23,18 +23,18 @@ img {
 
 #navbar {
 	/*Add your CSS here!*/
-	right:50%;
+	margin-right:0px;
 	position:fixed;
 	/*float:right;*/
 	
 }
 
 #header {
-	position: fixed;
 	background-color: #00CCFF;
 	margin-top:-20px;
 	padding:0;
         height:100px;
+        position: fixed;
 }
 
 ul{
