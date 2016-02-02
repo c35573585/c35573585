@@ -50,11 +50,13 @@ li {
 	color: #ffffff;
 	border-radius: 5px 5px;
 	background-color: #cc0323
+
 }
 
 #left{
 	/*Add your CSS here!*/
-	
+	float:left;
+	width:45%;
 }
 
 p {
@@ -64,7 +66,8 @@ p {
 
 #right{
 	/*Add your CSS here!*/
-	
+	float:right;
+	width:45%;
 }
 
 table {
@@ -111,6 +114,9 @@ th {
 	border-bottom-right-radius: 15px;
 	height: 75px;
 	background-color: #3c4543;
+	float:right;
+	width:45%;
+	clear:both;
 }
 
 #button{
