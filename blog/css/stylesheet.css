@@ -5,13 +5,13 @@ body{
 	background-color:#00CCFF;
 	height:40px;
 	width:auto;
-	position:absolute;
+	position:fixed;
 	margin-top:-10px;
 	margin-left:-10px;
 }
-#right{
+/*#right{
 	height:100px;
 	width:45px;
 	float:right;
 	position:fixed;
-}
+}*/
