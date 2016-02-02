@@ -44,3 +44,7 @@ li {
 	background-color: #50CEFF;
 
 }
+#left{
+	float:left;
+	width:80%;
+}
