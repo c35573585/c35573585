@@ -23,14 +23,14 @@ img {
 	left:50%;
 	position:fixed;
 	margin:auto;
-	right:50px;
+	right:-50px;
 	
 }
 
 #header {
 	position: relative;
 	background-color: #00CCFF;
-	top:10px;
+	top:-10px;
 	margin-left:-10px;
 	margin-right:-10px;
 }
@@ -47,7 +47,7 @@ li {
 	padding:5px 5px 5px 5px;
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
-	background-color: #10CEFF;
+	background-color: #50CEFF;
 
 }
 
