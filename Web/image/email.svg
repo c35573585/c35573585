@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="730.03" height="628.19" xmlns="http://www.w3.org/2000/svg">
- <title>pink-email-icon-gradient-2</title>
- <defs>
-  <radialGradient r="1.239432" gradientTransform="translate(0,0.10243751049041748) scale(1,0.33999999999999997)" cy="0.155208" cx="0.5" spreadMethod="pad" id="svg_4">
-   <stop offset="0" stop-opacity="0.996094" stop-color="#b2b2b2"/>
-   <stop stop-opacity="0.996094" offset="1" stop-color="#4c4c4c"/>
-  </radialGradient>
- </defs>
- <g display="inline">
-  <title>Layer 2</title>
-  <g id="g1402">
-   <path fill="url(#svg_4)" stroke="#ffffff" id="path1404" d="m140.865005,33.943001c-41.335007,0 -64.571007,21.370998 -64.571007,65.035995l0,450.122017c0,40.842957 20.890999,62.227966 62.191994,62.227966l452.024017,0c41.302979,0 62.226013,-20.320007 62.226013,-62.227966l0,-450.122017c0,-42.599995 -20.923035,-65.035995 -63.52301,-65.035995c0,0 -448.491013,-0.142002 -448.348007,0z"/>
-  </g>
- </g>
- <g display="inline">
-  <title>Layer 1</title>
-  <g id="g8564">
-   <g id="g1406">
-    <path stroke-linejoin="round" stroke-width="20" fill="none" stroke="#ffffff" id="path1408" d="m569.372009,469.471985l0,-300.81398l-408.714005,0l0,300.81398l408.714005,0z"/>
-    <path stroke-linejoin="round" fill="none" stroke-width="20" stroke="#ffffff" id="path1410" d="m365.014008,319.06601"/>
-    <path stroke-linejoin="round" fill="none" stroke-width="20" stroke="#ffffff" id="path1414" d="m165.514008,463.56601l140.095001,-142.106018"/>
-    <path stroke-linejoin="round" fill="none" stroke-width="20" stroke="#ffffff" id="path1416" d="m562.966003,461.973999l-136.451996,-138.598999"/>
-   </g>
-  </g>
- </g>
- <g display="inline">
-  <title>Layer 3</title>
-  <path stroke-width="20" fill="none" stroke="#ffffff" id="path1412" d="m165.460007,172.490005l176.319992,178.667984c13.069,13.170013 36.847992,13.014008 49.640991,0.120026l176.199005,-177.350021"/>
- </g>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px" height="771.423px" viewBox="0 0 1000 771.423" enable-background="new 0 0 1000 771.423" xml:space="preserve">
+<g>
+	<path fill="#999999" d="M823.812,0H176.188C79.029,0,0,79.021,0,176.188v419.046c0,97.168,79.029,176.188,176.188,176.188h647.623   c97.167,0,176.188-79.021,176.188-176.188V176.188C1000,79.021,920.948,0,823.812,0z M176.188,47.608h647.623   c55.964,0,103.557,36.003,121.17,86.02L525.065,431.81l-0.243-0.335c-7.435,4.072-15.813,6.572-24.864,6.572   c-8.989,0-17.331-2.485-24.719-6.496l-0.175,0.259l-420-298.288C72.7,83.581,120.262,47.608,176.188,47.608z M47.615,585.354   V186.665l280.744,199.352L47.615,585.354z M823.812,723.8H176.188c-55.751,0-103.183-35.729-120.971-85.426l314.247-223.155   l78.151,55.476l0.115-0.167c15.256,9.424,33.029,15.142,52.251,15.142c19.275,0,37.117-5.733,52.396-15.218l0.183,0.244   l78.137-55.476l314.102,223.064C927.048,688.041,879.593,723.8,823.812,723.8z M952.377,585.231L671.839,386.017l280.538-199.215   V585.231z"/>
+</g>
 </svg>
