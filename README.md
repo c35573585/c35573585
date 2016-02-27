@@ -1,6 +1,6 @@
 # c35573585.github.io
 
-###<p>分享至社群網站:</p>
+<p>分享至社群網站:</p>
 <div background-color="#red">
 <ul>
 <li>Twitter: http://twitter.com/home?status=Currently reading 網址</li>
