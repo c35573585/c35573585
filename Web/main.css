@@ -52,11 +52,11 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
-  width: 80%;
+  width: 100%;
 }
 
 .col-md-6 {
-  margin: 0 0 50px 50px;
+  margin: 0 0 30px;
 }
 
 .btn.btn-primary {
