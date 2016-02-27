@@ -55,8 +55,8 @@ section .row img {
   width: 100%;
 }
 
-.col-sm-6 {
-  margin: 0 0 30px;
+.col-md-6 {
+  margin: 0 0 50px;
 }
 
 .btn.btn-primary {
