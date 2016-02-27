@@ -1,7 +1,7 @@
 # c35573585.github.io
 
 ###<p>分享至社群網站:</p>
-<div style="background-color:palevioletred">
+<div style="background-color:#f0f8ff">
 <ul>
 <li>Twitter: http://twitter.com/home?status=Currently reading 網址</li>
 
