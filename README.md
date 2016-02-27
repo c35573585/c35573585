@@ -1,12 +1,14 @@
 # c35573585.github.io
 
-分享至社群網站:
-Twitter: http://twitter.com/home?status=Currently reading 網址
+<p>分享至社群網站:</p>
+<ul>
+<li>Twitter: http://twitter.com/home?status=Currently reading 網址</li>
 
-Facebook: http://www.facebook.com/sharer.php?u=網址
+<li>Facebook: http://www.facebook.com/sharer.php?u=網址</li>
 
-Google+: https://plus.google.com/share?url=網址
+<li>Google+: https://plus.google.com/share?url=網址</li>
 
-Line: http://line.me/R/msg/text/訊息%0D%0A(換行)網址
+<li>Line: http://line.me/R/msg/text/訊息%0D%0A(換行)網址</li>
 
 Email: mailto:信箱
+</ul>
