@@ -32,7 +32,7 @@ header p {
   display: flex;
   align-items: center;
   background-image: url('image/Jumbotron.jpg');
-  background-size: auto;
+  background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25em 0.25em 0.25em #000000;
