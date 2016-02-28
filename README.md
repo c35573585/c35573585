@@ -12,3 +12,18 @@
 
 <li>Email: mailto:信箱</li>
 </ul>
+#
+###<p>Navs style</p>
+<ul class="nav nav-pills pull-right" role="tablist">
+			<li ><a href="introduction.html">introduction</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				coding</a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="introduction.html">C++</a></li>
+					<li><a href="introduction.html">Java</a></li>
+					<li><a href="introduction.html">PHP</a></li>                        
+				</ul></li>
+			<li ><a href="introduction.html">volunteer</a></li>
+			<li ><a href="introduction.html">essay</a></li>
+</ul>
