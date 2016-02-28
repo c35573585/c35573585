@@ -14,8 +14,12 @@
 </ul>
 
 ###<p>Navs style</p>
-<最外層 class="nav nav-pills pull-right" role="tablist">
-<中層 class="dropdown">
-<內層 class="dropdown-toggle" data-toggle="dropdown">
-<內容 class="dropdown-menu" role="menu"></內容>
+<最外層 class="nav nav-pills pull-right" role="tablist"><br>
+<中層 class="dropdown"><br>
+<內層 class="dropdown-toggle" data-toggle="dropdown"><br>
+<內容 class="dropdown-menu" role="menu"></內容><br>
 </內層></中層></最外層>
+
+###<p>nav子選單會用到的script</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
