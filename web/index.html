@@ -7,17 +7,25 @@
 	<link type="text/css" rel="stylesheet" href="main.css"/>
 </head>
 <body>
-	<header class = "container">
-		<div class="row">
-			<h1 class="col-sm-4">Evangeline</h1>
-			<nav class="navbar navbar-default navbar-fixed-top text-right">
-				<p><a href="introduction.html">introduction</a></p>
-				<p>coding</p>
-				<p>volunteer</p>
-				<p>essay</p>
-			</nav>
+	<div class = "container">
+		<h1 class="col-sm-4">Evangeline</h1>
+		<div class="col-sm-8">
+			<ul class="nav nav-pills" role="tablist">
+				<li ><a href="introduction.html">introduction</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="introduction.html">
+						coding<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="introduction.html">HTML</a></li>
+						<li><a href="introduction.html">CSS</a></li>
+						<li><a href="introduction.html">JavaScript</a></li>                        
+					</ul>
+					</li>
+				<li ><a href="introduction.html">volunteer</a></li>
+				<li ><a href="introduction.html">essay</a></li>
+			</ul>
 		</div>
-	</header>
+	</div>
 	<section class="jumbotron">
     <div class="container">
       <div class="row text-center">
