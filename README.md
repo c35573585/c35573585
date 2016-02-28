@@ -12,7 +12,7 @@
 
 <li>Email: mailto:信箱</li>
 </ul>
-#-------------------------------
+##-------------------------------
 ###<p>Navs style</p>
 <ul class="nav nav-pills pull-right" role="tablist">
 	<li ><a href="introduction.html">introduction</a></li>
