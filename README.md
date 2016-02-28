@@ -1,4 +1,4 @@
-#1
+# c35573585.github.io
 
 ###<p>分享至社群網站:</p>
 <ul>
@@ -11,9 +11,7 @@
 <li>Line: http://line.me/R/msg/text/訊息%0D%0A(換行)網址</li>
 
 <li>Email: mailto:信箱</li>
-</ul>
-
-##2
+#</ul>
 
 ###<p>Navs style</p>
 <ul class="nav nav-pills pull-right" role="tablist">
