@@ -14,16 +14,8 @@
 </ul>
 
 ###<p>Navs style</p>
-<ul class="nav nav-pills pull-right" role="tablist">
-	<li ><a href="introduction.html">introduction</a></li>
-	<li class="dropdown">
-		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-		coding</a>
-		<ul class="dropdown-menu" role="menu">
-			<li><a href="introduction.html">C++</a></li>
-			<li><a href="introduction.html">Java</a></li>
-			<li><a href="introduction.html">PHP</a></li>                        
-		</ul></li>
-	<li ><a href="introduction.html">volunteer</a></li>
-	<li ><a href="introduction.html">essay</a></li>
-</ul>
+<最外層 class="nav nav-pills pull-right" role="tablist">
+<中層 class="dropdown">
+<內層 class="dropdown-toggle" data-toggle="dropdown">
+<內容 class="dropdown-menu" role="menu"></內容>
+</內層></中層></最外層>
