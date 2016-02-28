@@ -21,5 +21,5 @@
 </內層></中層></最外層>
 
 ###<p>nav子選單會用到的script</p>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+"https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
+src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
