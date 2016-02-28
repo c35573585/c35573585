@@ -15,7 +15,6 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
-  align-items: left;
 }
 
 header .nav > li > a{
@@ -34,7 +33,6 @@ header ul {
 }
 
 .jumbotron {
-  padding-top: 70px;
   display: flex;
   align-items: center;
   background-image: url('image/Jumbotron.jpg');
