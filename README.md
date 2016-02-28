@@ -1,4 +1,4 @@
-# c35573585.github.io
+#1
 
 ###<p>分享至社群網站:</p>
 <ul>
@@ -12,7 +12,9 @@
 
 <li>Email: mailto:信箱</li>
 </ul>
-##-------------------------------
+
+##2
+
 ###<p>Navs style</p>
 <ul class="nav nav-pills pull-right" role="tablist">
 	<li ><a href="introduction.html">introduction</a></li>
