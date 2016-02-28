@@ -20,6 +20,8 @@
 <內容 class="dropdown-menu" role="menu"></內容><br>
 </內層></中層></最外層>
 
-###<p>nav子選單會用到的script</p>
-"https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
-src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+###<p>Nav子選單會用到的script</p>
+<ul>
+<li>src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
+<li>src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+</ul>
