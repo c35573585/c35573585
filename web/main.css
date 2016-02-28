@@ -18,11 +18,14 @@ header h1 {
   margin: 0;
 }
 
-header .nav {
+header .nav-pills{
+	color:black;
+}
+
+header  nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #000000;
 }
 
 header ul {
