@@ -59,8 +59,9 @@ section .row img {
   width: 100%;
 }
 
-panel-group {
+panel-primary {
 	border-radius:0;
+	background-color: #00CCFF;
 }
 
 .col-md-6 {
