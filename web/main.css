@@ -18,7 +18,7 @@ header h1 {
 }
 
 header .nav > li  > a,
-section .nav > li  > a {
+section .nav > ul > li  > a {
 	color:	#696969;
 }
 
