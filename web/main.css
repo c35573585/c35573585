@@ -68,7 +68,9 @@ section .row img {
 	background-color:#0B5CFF;
 	color:#FFFFFF;
 }
-
+.panel-body{
+	color:#515151;
+}
 .col-md-6 {
   margin: 0 0 30px;
 }
