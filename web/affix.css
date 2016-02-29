@@ -70,7 +70,7 @@ section .row img {
   width: 100%;
 }
 
-panel-default {
+panel-primary {
 	border-radius:none;
 	background-color:#ffffff;
 }
