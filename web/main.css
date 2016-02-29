@@ -79,6 +79,9 @@ section .row img {
 
 iframe{
 	border:none;
+	margin-top: 10px;
+	width: auto;
+	height: auto;
 }
 .col-md-6 {
   margin: 0 0 30px;
