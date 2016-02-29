@@ -58,9 +58,7 @@ section .row img {
   margin: 0 0 30px;
   width: 100%;
 }
-.nav #title{
-	font-size:28px;
-}
+
 .nav > li > a {
 	color: #696969;
 }
