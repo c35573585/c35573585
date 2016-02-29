@@ -27,19 +27,19 @@
 </ul>
 
 ###<p>Accordion Panel group</p>
-<div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-        Collapsible Group 1</a>
-      </h4>
-    </div>
-    <div id="collapse1" class="panel-collapse collapse in">
+<最外層 class="panel-group" id="accordion">
+  <類型 class="panel panel-default">
+    <第一組標題 class="panel-heading">
+      <標題 class="panel-title">
+        <超連結 data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Collapsible Group 1</超連結>
+      </標題>
+    </第一組標題>
+    <第一組內容 id="collapse1" class="panel-collapse collapse in">
       <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.</div>
-    </div>
-  </div>
-</div>
+    </第一組>
+  </類型>
+</最外層>
