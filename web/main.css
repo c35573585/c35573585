@@ -59,7 +59,7 @@ section .row img {
   width: 100%;
 }
 
-section .nav > li > a {
+.nav > li > a {
 	color: #696969;
 }
 
