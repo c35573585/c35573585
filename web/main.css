@@ -59,10 +59,10 @@ section .row img {
   width: 100%;
 }
 
-.panel{
+.panel-primary{
 	border-radius: 0px;
 	border: none;
-	background-color: #05C2FF;
+	background-color: #B5CFAF;
 }
 
 .col-md-6 {
