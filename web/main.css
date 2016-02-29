@@ -59,6 +59,12 @@ section .row img {
   width: 100%;
 }
 
+.panel{
+	border-radius: 0px;
+	border: none;
+	background-color: #05C2FF;
+}
+
 .col-md-6 {
   margin: 0 0 30px;
 }
