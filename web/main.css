@@ -59,7 +59,7 @@ section .row img {
   width: 100%;
 }
 
-panel-primary {
+panel {
 	border-radius:0px;
 	border: none;
 }
