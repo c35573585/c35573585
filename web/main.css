@@ -59,14 +59,12 @@ section .row img {
   width: 100%;
 }
 
-.panel-group{
-	border-radius: 0px;
-	font-family:"微軟正黑體";
+.panel-primary{
+	border:none;
 }
 
 .panel-heading{
-	border: none;
-	background-color: #00CAFF;
+	background-color:#0B5CFF;
 }
 
 .col-md-6 {
