@@ -20,8 +20,26 @@
 <內容 class="dropdown-menu" role="menu"></內容><br>
 </內層></中層></最外層>
 
-###<p>Nav子選單會用到的script</p>
+###<p>會用到的script</p>
 <ul>
 <li>src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"
 <li>src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 </ul>
+
+###<p>Accordion Panel group</p>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Collapsible Group 1</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
