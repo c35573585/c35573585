@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif, "微軟正黑體";
   font-weight: 300;
 }
 
@@ -17,8 +17,7 @@ header h1 {
   margin: 0;
 }
 
-header .nav > li  > a,
-section .nav > ul > li  > a {
+header .nav > li  > a {
 	color:	#696969;
 }
 
@@ -58,6 +57,10 @@ header ul {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+section .nav > li > a {
+	color: #696969;
 }
 
 .panel-custom{
