@@ -80,8 +80,8 @@ section .row img {
 iframe{
 	border:none;
 	margin-top: 5px;
-	width: 60%;
-	height: 40%;
+	width: 840px;
+	height: 600px;
 }
 .col-md-6 {
   margin: 0 0 30px;
