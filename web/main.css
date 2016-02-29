@@ -61,6 +61,7 @@ section .row img {
 
 panel-primary {
 	border-radius:0px;
+	border: none;
 }
 
 .col-md-6 {
