@@ -59,6 +59,10 @@ section .row img {
   width: 100%;
 }
 
+.nav-tabs{
+  background-color:#161616;
+}
+
 .nav > li > a {
 	color: #696969;
 }
