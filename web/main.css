@@ -76,6 +76,10 @@ section .row img {
 .panel-body{
 	color:#313131;
 }
+
+iframe{
+	border:none;
+}
 .col-md-6 {
   margin: 0 0 30px;
 }
