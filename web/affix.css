@@ -70,6 +70,12 @@ section .row img {
   width: 100%;
 }
 
+panel-default {
+	border-radius:none;
+	background-color:#ffffff;
+}
+
+
 .col-md-6 {
   margin: 0 0 30px;
 }
