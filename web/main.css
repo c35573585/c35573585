@@ -60,8 +60,7 @@ section .row img {
 }
 
 panel-primary {
-	border-radius:0;
-	background-color: #00CCFF;
+	border-radius:0px;
 }
 
 .col-md-6 {
