@@ -61,9 +61,10 @@ section .row img {
 
 .panel-group{
 	border-radius: 0px;
+	font-family:"微軟正黑體";
 }
 
-.panel-title{
+.panel-heading{
 	border: none;
 	background-color: #00CAFF;
 }
