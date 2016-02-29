@@ -15,8 +15,11 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
-  color: #696969;
-  text-decoration: none;
+}
+
+header h1 > a {
+	color: #696969;
+	text-decoration: none;
 }
 
 header .nav > li > a{
