@@ -1,98 +1,68 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<title>I'm Evangeline</title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link type="text/css" rel="stylesheet" href="main.css"/>
-	
-	<!-- nav button會用到，不然沒有子選單 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!-- nav button會用到，不然沒有子選單 -->
-</head>
-<body>
-<!--Bootstrap-->
-<!--標頭-->
-<header class = "container">
-	<h1 class="col-sm-4">Evangeline</h1>
-	<div class="col-sm-8">
-		<ul class="nav nav-pills pull-right" role="tablist">
-			<li ><a href="introduction.html">introduction</a></li>
-			<li ><a href="coding.html">coding</a></li>
-			<!--<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-				coding</a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="cs.html">C#</a></li>
-					<li><a href="#">C++</a></li>
-					<li><a href="#">Java</a></li>
-					<li><a href="#">PHP</a></li>                        
-				</ul></li>-->
-			<li ><a href="volunteer.html">volunteer</a></li>
-			<li ><a href="essay.html">essay</a></li>
-		</ul>
-	</div>
-</header>
-<section class="jumbotron">
+---
+layout: blog
+title: index
+permalink: /
+---
+
+<div class="navbar-wrapper">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="row text-center">
-        <h2>Never Back Down</h2>
-        <h3>Adversity is a good discipline.</h3>
-        <!--<a class="btn btn-primary" href="#" role="button">
-          See all</a>-->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+          {% for section in site.data.landing %}
+          <li>
+            {% if section.page %}
+              <a class="page-scroll" href="{{ section.page}} ">
+            {% else %}
+              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
+            {% endif %}
+              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+            </a>
+          </li>
+          {% endfor %}
+          {% for language in site.data.index.language %}
+          <li>
+            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
+  </nav>
+</div>
+{% if site.index_carousel %}
+{% include carousel.html %}
+{% endif %}
+
+{% for section in site.data.landing %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
+  {% include sections/{{section.tpl}} %}
 </section>
-<section class="container">
-    <div class="row">
-      <figure class="col-sm-6">
-        <p>Introduction</p><a href="introduction.html">
-        <img src="image/Introduction.jpg"/></a>
-      </figure>
-      <figure class="col-sm-6">
-        <p>Coding</p><a href="coding.html">
-        <img src="image/Coding.jpg"/></a>
-      </figure>
-    </div>
-    <div class="row">
-    	<figure class="col-sm-6">
-      	<p>Volunteer</p><a href="volunteer.html">
-        <img src="image/Volunteer.jpg"/></a>
-      </figure>
-      <figure class="col-sm-6">
-      	<p>Essay</p><a href="essay.html">
-        <img src="image/Essay.jpg"/></a>
-      </figure>
-    </div>
-</section>
-<footer class="container">
-    <div class="row">
-      <p class="col-sm-4">&copy; 2016 Evangeline</p>
-	  <!--分享至社群網站-->
-      <ul class="col-sm-8">
-        <li class="col-sm-1">
-		<a href="http://twitter.com/home?status=Currently reading http://c35573585.github.io/Web/" target="_blank" title="Twitter">
-        	<img src="image/twitter.svg"></a>
-        </li>
-        <li class="col-sm-1">
-        	<a href="http://www.facebook.com/sharer.php?u=http://c35573585.github.io/Web/" target="_blank" title="Facebook">
-			<img src="image/facebook.svg"></a>
-        </li>
-        <li class="col-sm-1">
-        <a href="https://plus.google.com/share?url=http://c35573585.github.io/Web/" target="_blank" title="Google+">
-			<img src="image/googleplus.svg"></a>
-        </li>
-		<li class="col-sm-1">
-        <a href="http://line.me/R/msg/text/Evangeline%0D%0Ahttp://c35573585.github.io/Web/" target="_blank" title="Line">
-			<img src="image/line.svg"></a>
-        </li>
-		<li class="col-sm-1">
-		<a href="mailto:c35573585@yahoo.com.tw" target="_blank" title="Email">
-        	<img src="image/email.svg"></a>
-        </li>
-      </ul>
-    </div>
-</footer>
-</body>
-</html>
+{% endfor %}
+<style>
+iframe {
+  -moz-transform: scale(0.25, 0.25);
+  -webkit-transform: scale(0.25, 0.25);
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25);
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+</style>
+<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
