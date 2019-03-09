@@ -26,9 +26,9 @@ author:  # change following line to your infomation.
     - name: icon-shell
     - name: icon-mssql
     - name: icon-oracle
-    - name: fa-database
+#    - name: fa-database
   skill_icon2:
-    - name: fa-linux
+#    - name: fa-linux
     - name: icon-css3
     - name: icon-html5
     - name: icon-unity
