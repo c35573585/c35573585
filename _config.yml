@@ -23,10 +23,14 @@ author:  # change following line to your infomation.
   #cv: http://cv.c35573585.com  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
+    - name: icon-shell
+    - name: icon-mssql
+    - name: icon-oracle
     - name: fa-database
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-css3
+    - name: icon-html5
     - name: icon-unity
   desc: Introduce myself will be here.  # Describe yourself.
 
