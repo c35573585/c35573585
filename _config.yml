@@ -56,7 +56,7 @@ author:  # change following line to your infomation.
 
 ## carousels
 index_carousel: on  # index page carousel switch
-blog_carousel: off  # blog page carousel switch
+blog_carousel: on  # blog page carousel switch
 
 # scss
 sass:
