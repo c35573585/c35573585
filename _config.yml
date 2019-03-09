@@ -25,13 +25,13 @@ author:  # change following line to your infomation.
   skill_icon1:
     - name: icon-shell
 #    - name: icon-mssql
-    - name: icon-oracle
+#    - name: icon-oracle
     - name: fa-database
   skill_icon2:
     - name: fa-linux
-    - name: icon-css3
-    - name: icon-html5
-#    - name: icon-unity
+#    - name: icon-css3
+#    - name: icon-html5
+    - name: icon-unity
   desc: Introduce myself will be here.  # Describe yourself.
 
 # comment
