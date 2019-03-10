@@ -8,19 +8,19 @@
   img: /static/assets/img/landing/stock.jpg
   desc: In the process, I had to assist financial department choose the best solution and I did the Hardware and Software settings.
 
-- name: Data Center High Available Improvement Plan
-  i18n: dcha
-#  gh_user: python
-#  repo: cpython
-  img: /static/assets/img/landing/ha.png
-  desc: This project is my second project. There were only two active node before. 
-
 - name: Data Center Database Hardware and Software Improvement Plan
   i18n: dc
 #  gh_user: python
 #  repo: cpython
   img: /static/assets/img/landing/dc.png
   desc: These databases are used the most frequently. There are many application connected with these databases would be released, but they couldn't oprate successfully.
+
+- name: Data Center High Available Improvement Plan
+  i18n: dcha
+#  gh_user: python
+#  repo: cpython
+  img: /static/assets/img/landing/ha.png
+  desc: There were only two active node before. Fail over couldn't oprate successfully.
 
 - name: B2B Database Hardware and Software Migration Plan
   i18n: b2b
