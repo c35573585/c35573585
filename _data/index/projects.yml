@@ -29,7 +29,7 @@
   desc: This project is a special case about building high availability with IBM power6 and IBM power8. 
 
 - name: Data Center Database Hardware and Software Improvement Plan
-  i18n: dcha
+  i18n: dc
 #  gh_user: python
 #  repo: cpython
   img: /static/assets/img/landing/dc.png
