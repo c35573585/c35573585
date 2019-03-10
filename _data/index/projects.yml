@@ -33,12 +33,12 @@
 #  gh_user: python
 #  repo: cpython
   img: /static/assets/img/landing/dc.png
-  desc: These databases are used the most frequently. There are many application connected with these databases would be released, but they couldn't oprate successfully. Thus, this is the solution.
+  desc: These databases are used the most frequently. There are many application connected with these databases would be released, but they couldn't oprate successfully.
   
 - name: ASRS Database Hardware and Software Improvement Plan
   i18n: asrs
 #  gh_user: python
 #  repo: cpython
   img: /static/assets/img/landing/asrs.png
-  desc: This project is my second project. There were only two active node before. 
+  desc: Old, Single server and oracle 9i, it was the worst equipment at the company.
   
