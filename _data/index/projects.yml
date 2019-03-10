@@ -6,7 +6,7 @@
 #  gh_user: jarrekk
 #  repo: Jalpc
   img: /static/assets/img/landing/stock.jpg
-  desc: This project is my first project at ASE Group. In the process, I had to assist financial department choose the best solution and contact the manufacturer to provide a quote. Finally, I did the Hardware and Software settings.
+  desc: In the process, I had to assist financial department choose the best solution and I did the Hardware and Software settings.
 
 - name: Data Center High Available Improvement Plan
   i18n: dcha
